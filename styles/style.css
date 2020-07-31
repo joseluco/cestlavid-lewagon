@@ -1,0 +1,169 @@
+@import "webdev.css";
+@import "whatsapp.css";
+
+body {
+    background-color: rgb(245, 220, 224);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #89a67f;
+    height: 102px;
+}
+
+header img {
+    width: 115px;
+    height: 100px;
+    margin-left: 90px;
+}
+
+/* NAVBAR */
+nav {
+    margin: auto;
+    align-self: flex-end;
+    margin-right: 30px;
+    background-color: #89a67f;
+}
+
+.navbar-light .navbar-toggler {
+	color: whitesmoke;
+	border-color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+	color: white;
+}
+.dropdown-menu {
+    background-color: rgb(245, 220, 224);
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link:hover {
+    background-color: rgb(245, 220, 224);
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.dropdown-item {
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px black;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(224, 224, 224, 0.582);
+    color: whitesmoke;
+    opacity: 0,5;
+    text-shadow: 1px 1px 5px black;
+}
+
+nav .btn {
+    color: white;
+    background-color: #89a67f;
+    border: 0px;
+    text-shadow: 1px 1px 5px black;
+}
+nav .btn:hover {
+    background-color: rgb(245, 220, 224);
+    text-shadow: 1px 1px 5px black;
+} 
+
+/* SUBHEADER */
+
+.fa-shipping-fast {
+    font-size: 55px;
+    color: orangered;
+    text-align: center;
+    padding: 0px 50px;
+
+}
+
+.card3 .btn {
+    border-radius: 10px;
+}
+
+.card4 a {
+    color: #89a67f;
+    font-weight: bold;
+}
+
+/* CATALOGO */
+#catalogo h3 {
+    margin: 15px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(128, 127, 127, 0.644);
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #89a67f;
+	border-color: #83a876;
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #62a14d;
+	border-color: #5ea546;
+}
+
+
+.mas-vendidos .card-title {
+    height: 48px;
+    width: auto;
+}
+
+.mas-vendidos .card-price {
+    font-size: 16px;
+    font-weight: bold;
+    opacity: .7;
+
+}
+
+.cavas {
+    margin: 0 50px;
+}
+
+.cavas .card-text {
+    height: 96px;
+    width: auto;
+}
+
+.cavas .card-text .card-price {
+    font-size: 16px;
+    font-weight: bold;
+    opacity: .7;
+}
+
+
+
+/*FOOTER */
+#footer .container-fluid {
+    padding: 10px 40px 5px 40px;
+    background-color: #89a67f;
+    color: whitesmoke;
+    text-align: left;
+    text-shadow: 1px 1px 5px black;
+}
+
+.foot1, .foot2, .foot3, .foot4 {
+    margin: 10px 0px;
+}
+
+#footer .container-fluid a {
+    color: whitesmoke;
+}
+
+#footer .container-fluid a:hover {
+    color: rgb(92, 91, 91);
+    text-shadow: 1px 1px 5px whitesmoke;
+}
+
+.foot1 img {
+    width: 115px;
+    height: 100px;
+}

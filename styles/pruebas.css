@@ -1,0 +1,66 @@
+
+
+.navbar-lewagon {
+    justify-content: space-between;
+    background: #89a67f;
+    height: 102px;
+}
+  
+.navbar-lewagon .navbar-collapse {
+    flex-grow: 0;
+}
+  
+.navbar-lewagon .navbar-brand img {
+    width: 115px;
+    height: 100px;
+    margin-left: 90px;
+}
+
+.navbar-light .navbar-toggler {
+	color: whitesmoke;
+  border-color: white;
+  background: #89a67f;
+}
+
+#navbarSupportedContent {
+  background: #89a67f;
+}
+
+.dropdown-menu {
+    background-color: rgb(245, 220, 224);
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link:hover {
+    background-color: rgb(245, 220, 224);
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.dropdown-item {
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px black;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(224, 224, 224, 0.582);
+    color: whitesmoke;
+    opacity: 0,5;
+    text-shadow: 1px 1px 5px black;
+}
+
+form .btn {
+  color: white;
+  background-color: #89a67f;
+  border: 0px;
+  text-shadow: 1px 1px 5px black;
+}
+form .btn:hover {
+  background-color: rgb(245, 220, 224);
+  text-shadow: 1px 1px 5px black;
+} 
